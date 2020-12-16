@@ -1,0 +1,108 @@
+body {
+  background-color: #3CB371;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  #border: 3px solid black;
+  #padding: 10px;
+}
+
+h1 {
+	font-family: mySecondFont;
+	text-align: center;
+	background-color: white;
+	border-radius: 25px;
+}
+
+h2 {
+	text-align: center;
+	background-color: white;
+	border-radius: 25px;
+}
+
+/*Formulario Parte 1*/
+input[type=text], [type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*Formulario Parte 2*/
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Formulario Parte 3*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*Formulario Parte 4*/
+#meuForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#tabela {
+	background-color: #f2f2f2;
+}
+
+a {
+	color: #FF0000;
+}
+
+.btn1 {
+	background-color: #FF7F00;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(../fonts/barrio-chino.ttf);
+}
+
+@font-face {
+   font-family: mySecondFont;
+   src: url(../fonts/pixelmania.ttf);
+}
+
+
+* {
+   font-family: myFirstFont;
+   font-size:18;
+}
+
+/*Animação Parte 1*/
+#bola {
+  margin-left:0%;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/*Animação Parte 2*/
+@keyframes example {
+  0%   {background-color:#FFD700; left:0px; top:0px;}
+  100% {background-color:#B22222; left:90%; top:0px;}
+}
